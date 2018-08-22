@@ -9,7 +9,7 @@ class Hello extends Component {
 		return (
 			<div className="tc f1">
 				<h1>Hello World!</h1>
-				<p>This Is My First React Component!</p>
+				<p>{this.props.greeting}</p>
 			</div>
 		);
 	}

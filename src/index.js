@@ -4,5 +4,5 @@ import './index.css';
 import Hello from './Hello';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<Hello greeting = {'React Is Badass !'} />, document.getElementById('root'));
 registerServiceWorker();
