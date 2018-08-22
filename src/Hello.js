@@ -3,16 +3,14 @@ import 'tachyons';
 import './Hello.css';
 
 
-class Hello extends Component {
+const Hello = (props) => {
 
-	render() {
 		return (
 			<div className="tc f1">
 				<h1>Hello World!</h1>
-				<p>{this.props.greeting}</p>
+				<p>{props.greeting}</p>
 			</div>
 		);
-	}
 }
 
 export default Hello;
