@@ -7,7 +7,7 @@ class Hello extends Component {
 
 	render() {
 		return (
-			<div class="tc f1">
+			<div className="tc f1">
 				<h1>Hello World!</h1>
 				<p>This Is My First React Component!</p>
 			</div>
